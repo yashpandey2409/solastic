@@ -12,7 +12,7 @@ import warnings
 warnings.filterwarnings('ignore')
 
 # Configure Streamlit page
-st.set_page_config(System
+st.set_page_config(
     page_title="Solatic:  Real-time monitoring and consumption tracking",
     page_icon="logo.jpg",
     layout="wide",
