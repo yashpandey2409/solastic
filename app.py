@@ -13,7 +13,7 @@ warnings.filterwarnings('ignore')
 
 # Configure Streamlit page
 st.set_page_config(System
-    page_title="Solatic: Solar Power Maintenance Alert System",
+    page_title="Solatic:  Real-time monitoring and consumption tracking",
     page_icon="logo.jpg",
     layout="wide",
     initial_sidebar_state="expanded"
