@@ -1,5 +1,5 @@
-Solatic: Solar Power Maintenance Alert System
-Solatic is an interactive Streamlit dashboard designed to monitor, analyze, and predict the performance of solar power plants. It provides real-time insights, detects potential faults, and offers power output predictions using a machine learning model, helping in proactive maintenance and optimal energy generation.
+Solastics: Solar Power Maintenance Alert System
+Solastics is an interactive Streamlit dashboard designed to monitor, analyze, and predict the performance of solar power plants. It provides real-time insights, detects potential faults, and offers power output predictions using a machine learning model, helping in proactive maintenance and optimal energy generation.
 
 ✨ Features
 🏠 Real-Time Dashboard: Get an overview of current power output, efficiency, peak power, and system uptime. Includes real-time plots of power output, temperature, and solar irradiance.
@@ -45,11 +45,11 @@ Plotly Express & Plotly Graph Objects: For interactive and compelling data visua
 Scikit-learn: For the Machine Learning model (RandomForestRegressor) used in power prediction.
 
 🚀 Setup and Installation
-To run Solatic locally, follow these steps:
+To run Solastics locally, follow these steps:
 
 Clone the repository:
-git clone https://github.com/your-username/solatics.git
-cd solatics
+git clone https://github.com/yashpandey2409/solastics.git
+cd solastics
 
 Create a virtual environment (recommended):
 python -m venv venv
