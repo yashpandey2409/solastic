@@ -13,7 +13,7 @@ warnings.filterwarnings('ignore')
 
 # Configure Streamlit page
 st.set_page_config(
-    page_title="Solastics: Solar Power Maintance Alert System",
+    page_title="Solastic: Solar Power Maintance Alert System",
     page_icon="logo.jpg",
     layout="wide",
     initial_sidebar_state="expanded"
