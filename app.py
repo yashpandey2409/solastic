@@ -13,7 +13,7 @@ warnings.filterwarnings('ignore')
 
 # Configure Streamlit page
 st.set_page_config(
-    page_title="Solatic:  Real-time monitoring and consumption tracking",
+    page_title="Solatic Solatic Monitoring System",
     page_icon="logo.jpg",
     layout="wide",
     initial_sidebar_state="expanded"
@@ -82,7 +82,7 @@ st.markdown("""
 """, unsafe_allow_html=True)
 
 # Main visible title
-st.title("Solatic:  Real-time monitoring and consumption tracking")
+st.title("Solatic: Real-time monitoring and consumption tracking")
 
 def generate_sample_data(days=30):
     """Generate realistic solar power plant data"""
@@ -224,7 +224,8 @@ def main():
         st.markdown("<div style='text-align: center;'>", unsafe_allow_html=True)
         st.image("logo.jpg", width=200)
         st.markdown("</div>", unsafe_allow_html=True)
-        st.markdown('<h1 class="main-header">Solatic: Solar Power Maintenance Alert System</h1>', unsafe_allow_html=True)
+        st.markdown('<h1 class="main-header">Solatic Monitoring System</h1>', unsafe_allow_html=True)
+
     
     # Load or generate data
     if 'data' not in st.session_state:
