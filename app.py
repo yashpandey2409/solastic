@@ -81,6 +81,9 @@ st.markdown("""
 </style>
 """, unsafe_allow_html=True)
 
+# Main visible title
+st.title("Solatic:  Real-time monitoring and consumption tracking")
+
 def generate_sample_data(days=30):
     """Generate realistic solar power plant data"""
     np.random.seed(42)
