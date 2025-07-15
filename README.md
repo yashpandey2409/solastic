@@ -79,4 +79,7 @@ This will open the application in your web browser.
 🤝 Contributing
 We welcome contributions to Solatic! If you have suggestions for improvements, new features, or bug fixes, please open an issue or submit a pull request.
 
+📄 License
+This project is licensed under the MIT License.
+
 
