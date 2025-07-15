@@ -1,91 +1,82 @@
-Solastics: Solar Power Maintenance Alert System
-Solastics is an interactive Streamlit dashboard designed to monitor, analyze, and predict the performance of solar power plants. It provides real-time insights, detects potential faults, and offers power output predictions using a machine learning model, helping in proactive maintenance and optimal energy generation.
+Solatic: Real-time Solar Plant Monitoring and Consumption Tracking
+🌟 Overview
+Solatic is an AI/ML-powered solution designed for real-time monitoring and insightful analysis of solar power generation. This project helps solar plant owners and operators understand their system's performance, predict energy yield, identify inefficiencies, and proactively detect operational anomalies. Beyond generation, Solatic also aims to incorporate consumption tracking for a holistic energy management view.
 
 ✨ Features
-🏠 Real-Time Dashboard: Get an overview of current power output, efficiency, peak power, and system uptime. Includes real-time plots of power output, temperature, and solar irradiance.
+AC Power Prediction: Accurately predicts AC power generation based on crucial input variables like irradiation, temperature, and DC power.
 
-📊 Data Analysis: Explore historical data with summary statistics, correlation analysis, power output distribution, and hourly patterns. Filter data by date range for detailed insights.
+Performance Visualization: Provides clear and diverse graphs to visualize when and why power generation is high or low, offering immediate insights into plant performance.
 
-⚠️ Fault Detection: Identify potential issues and anomalies in power output using statistical methods. Displays recent fault occurrences and system health indicators.
+Inverter Efficiency Identification: Pinpoints low-efficiency inverters, enabling targeted maintenance and optimization efforts.
 
-🔮 Power Prediction: Utilizes a trained Machine Learning model (RandomForestRegressor) to predict future power output based on environmental conditions. Provides model performance metrics (R², RMSE) and feature importance.
+Solar Plant Health Monitoring: Tracks the overall health of your solar plant over time, providing a historical perspective on its operational status.
 
-📈 Performance Metrics: Detailed analysis of key performance indicators (KPIs) like total energy production, average efficiency, capacity factor, and system availability over various time periods. Includes performance trends and industry benchmarks.
+Anomaly Detection: Automatically flags abnormal conditions such as unusual temperature, irradiation, or power yield, allowing for quick intervention.
 
-🧠 How it Works (Model & Analytics)
-This application integrates several analytical components to provide a comprehensive monitoring solution:
+Consumption Tracking (Future/Planned): Integrate features to monitor and analyze energy consumption, providing a complete picture of energy flow.
 
-Data Generation: Realistic solar power plant data (irradiance, temperature, wind speed, power output, efficiency, and simulated faults) is generated hourly for the past 30 days.
+🚀 Why Solatic is a Good Project
+Thorough Data Preprocessing: Ensures high-quality input for accurate model predictions.
 
-Performance Metrics: Key performance indicators (KPIs) are calculated dynamically based on the latest data, providing immediate insights into the plant's operational status.
+Model Variety: Explored and evaluated multiple regression algorithms to find the optimal solution.
 
-Anomaly Detection: A statistical method is employed to identify unusual deviations in power output, flagging potential issues that require attention.
+Robust Evaluation: Utilizes R² score and visual inspection for comprehensive model assessment.
 
-Power Prediction (Machine Learning Model):
+Strong Visual Storytelling: Employs diverse and intuitive graphs to make complex data easily understandable.
 
-A RandomForestRegressor model is trained on historical data, using features like irradiance, temperature, wind speed, hour of day, day of year, and month.
+Interpretability: Provides understandable metrics and plots, making the insights actionable.
 
-The model's performance (R² score, RMSE) and feature importance are displayed.
+Real-world Use: Highly practical for solar plant monitoring, maintenance, and overall performance optimization.
 
-Users can input hypothetical environmental conditions via sliders to get real-time power output predictions from the trained model.
+🧠 Technical Details
+Model Type: Regression
 
-Historical actual vs. predicted power output is visualized to demonstrate model accuracy.
+Best Algorithm Used: Random Forest Regressor
 
-🛠️ Technologies Used
-Python 
+Key Prediction Target: AC_POWER
 
-Streamlit: For building the interactive web dashboard.
+Framework: Streamlit for interactive web application deployment.
 
-Pandas: For data manipulation and analysis.
+💡 Use Cases
+Predict Energy Yield: Forecast future AC power generation for better energy planning.
 
-NumPy: For numerical operations and data generation.
+Identify Inefficient Inverters: Optimize inverter performance and extend their lifespan.
 
-Plotly Express & Plotly Graph Objects: For interactive and compelling data visualizations.
+Visual Monitoring of Solar Plant Performance: Gain real-time and historical insights into plant operation.
 
-Scikit-learn: For the Machine Learning model (RandomForestRegressor) used in power prediction.
+Detect Operational Faults: Proactively identify and address issues before they lead to significant losses.
 
-🚀 Setup and Installation
-To run Solastics locally, follow these steps:
+Informed Maintenance: Schedule predictive maintenance based on identified inefficiencies or anomalies.
+
+💻 Demo
+Experience Solatic in action! Visit our live demo:
+
+https://solaticai.streamlit.app/
+
+🛠️ Installation (For Local Setup)
+To run Solatic locally, follow these steps:
 
 Clone the repository:
-git clone https://github.com/yashpandey2409/solastics.git
-cd solastics
 
-Create a virtual environment (recommended):
-python -m venv venv
+Bash
 
-Activate the virtual environment:
+git clone https://github.com/YOUR_USERNAME/Solatic.git
+cd Solatic
+(Replace YOUR_USERNAME with your actual GitHub username)
 
-On Windows:
-.\venv\Scripts\activate
+Bash
 
-On macOS/Linux:
-source venv/bin/activate
-
-Install dependencies:
 pip install -r requirements.txt
 
 Run the Streamlit application:
+
+Bash
+
 streamlit run app.py
-The application will open in your default web browser.
 
-💡 Usage
-Navigate through the different sections using the sidebar on the left:
+This will open the application in your web browser.
 
-Dashboard: For a quick overview.
-Data Analysis: To delve into historical data trends.
-Fault Detection: To check for anomalies and system health.
-Power Prediction: To interact with the ML model and get predictions.
-Performance Metrics: For detailed KPI analysis.
-Interact with sliders, date pickers, and buttons to filter data and generate predictions.
-
-📊 Data Generation
-The application uses a generate_sample_data function to create synthetic, yet realistic, solar power plant data. This allows the dashboard to be fully functional out-of-the-box without requiring external data sources.
-
-🚀 Future Enhancements
-Integration with real-time sensor data feeds.
-More advanced machine learning models for fault detection (e.g., unsupervised learning).
-Incorporation of weather API data for more accurate predictions.
-Alert notifications
+🤝 Contributing
+We welcome contributions to Solatic! If you have suggestions for improvements, new features, or bug fixes, please open an issue or submit a pull request.
 
 
