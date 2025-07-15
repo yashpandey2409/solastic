@@ -224,7 +224,6 @@ def main():
         st.markdown("<div style='text-align: center;'>", unsafe_allow_html=True)
         st.image("logo.jpg", width=200)
         st.markdown("</div>", unsafe_allow_html=True)
-        st.markdown('<h1 class="main-header">Solatic Monitoring System</h1>', unsafe_allow_html=True)
 
     
     # Load or generate data
