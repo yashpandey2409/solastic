@@ -62,7 +62,6 @@ Bash
 
 git clone https://github.com/yashpandey2409/Solatic.git
 cd Solatic
-(Replace YOUR_USERNAME with your actual GitHub username)
 
 Bash
 
